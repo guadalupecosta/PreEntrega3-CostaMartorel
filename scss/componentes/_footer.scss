@@ -1,0 +1,25 @@
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: map-get($fondosSecciones, 'footer');
+    color: #FFF;
+
+    h3 {
+        padding-bottom: 20px;
+        font-weight: 700;
+    }
+
+    a {
+        border: 2px solid #FFF;
+        padding: 10px;
+        margin: 0 10px;
+        font-weight: 600;
+        
+        &:hover {
+            background-color: #f1c850;
+            color: #FFF;
+            border: 2px solid #FFF;
+        }
+    }
+}
+

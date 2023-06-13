@@ -1,0 +1,27 @@
+@mixin background($background: none) {
+    background-image: $background;
+    background-position: center;
+    background-size: cover;
+    filter: opacity(50%);
+  }
+  
+  $canotaje-background: url("../assets/img/canotaje/canotaje-1.png");
+  $remo-background: url("../assets/img/remo/remo-1.png");
+  $triaaventura-background: url("../assets/img/triaaventura/triaaventura-1.png");
+  $nuestroclub-background: url("../assets/img/club/1.png");
+  
+  .canotaje {
+    @include background($canotaje-background);
+  }
+  
+  .remo {
+    @include background($remo-background);
+  }
+  
+  .tria-aventura {
+    @include background($triaaventura-background);
+  }
+  
+  .nuestro-club {
+    @include background($nuestroclub-background);
+  }

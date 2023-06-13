@@ -1,0 +1,57 @@
+@import 'mixins';
+
+header {
+    div {
+        height: 96px;
+        background: linear-gradient(90deg, rgba(152, 216, 170, 1) 0%, rgba(247, 208, 96, 1) 50%, rgba(25, 167, 206, 1) 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+            font-size: 40px;
+            color: #FFF;
+            font-weight: 700;
+        }
+
+        .fadeInDown {
+            animation-name: fadeInDown;
+            animation-duration: 1s;
+            animation-fill-mode: both;
+        }
+
+        @keyframes fadeInDown {
+            0% {
+                opacity: 0;
+                transform: translate3d(0, -100%, 0);
+            }
+
+            100% {
+                opacity: 1;
+                transform: none;
+            }
+        }
+
+        .logo {
+            width: 100px;
+        }
+    }
+
+    ul {
+        display: flex;
+    }
+
+    nav {
+        ul {
+            li {
+                font-size: 30px;
+                padding: 10px 0;
+
+                a {
+                    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}

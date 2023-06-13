@@ -1,0 +1,50 @@
+@media (min-width: 768px) {
+    nav{
+        ul {
+            li {
+                padding: 40px 0;
+            }
+        }
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    .titulo-home {
+        padding-top: 46px;
+    }
+
+    .redes-sociales-items {
+        font-size: 26px;
+        padding: 24px;
+    }
+
+    footer {
+        padding: 40px;
+
+        h3 {
+            font-size: 36px;
+            padding-bottom: 34px;
+        }
+        
+        a {
+            padding: 16px;
+            font-size: 26px;
+        }
+    }
+}
+
+@media (min-width: 1400px) {
+    nav {
+        ul {
+            li {
+                height: 400px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 42px;
+            }
+        }
+    }
+}
